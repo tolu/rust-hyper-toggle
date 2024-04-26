@@ -16,3 +16,4 @@ cargo watch -c -w src -x run
 - rustlang book <https://doc.rust-lang.org/book/>
 - hyper server guide <https://hyper.rs/guides/1/server/echo/>
 - jsr.io source code <https://github.com/jsr-io/jsr/blob/main/api/src/main.rs>
+- hyper examples repo <https://github.com/hyperium/hyper/tree/master/examples>
