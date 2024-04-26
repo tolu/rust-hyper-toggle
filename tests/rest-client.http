@@ -1,0 +1,37 @@
+### GET /
+
+GET http://localhost:3000/
+User-Agent: rest-client
+
+### POST /echo
+
+POST http://localhost:3000/echo
+User-Agent: rest-client
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "{{$datetime iso8601}}"
+}
+
+### POST /echo/uppercase
+
+POST http://localhost:3000/echo/uppercase
+User-Agent: rest-client
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "{{$datetime iso8601}}"
+}
+
+### POST /echo/reversed
+
+POST http://localhost:3000/echo/reversed
+User-Agent: rest-client
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "{{$datetime iso8601}}"
+}
