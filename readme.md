@@ -10,6 +10,11 @@ Testing rust and hyper (HTTP lib) by building a minimal api proxy over Toggle.io
 cargo watch -c -w src -x run
 ```
 
+### Crates to test
+
+- http client [reqwest](https://docs.rs/reqwest/latest/reqwest/)
+- web framework (built on hyper.rs) [warp](https://docs.rs/warp/latest/warp/)
+
 ### Resources
 
 - test render.com for hosting <https://dashboard.render.com/>
